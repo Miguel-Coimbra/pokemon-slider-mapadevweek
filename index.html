@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokébola" class="pokebola">
+        <h1 class="titulo">Pokémon Slider</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta de voltar">
+        </button>
+
+        <ul class="lista-pokemon">
+            <li class="cartao fundo-1 selecionado">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="numero">#0025</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Ele armazena eletricidade nas bolsas elétricas em suas bochechas. Quando libera a
+                        energia acumulada em uma explosão, a potência elétrica é equivalente à de um raio.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2 ">
+                <div class="informacoes">
+                    <h2 class="titulo">Charizard</h2>
+                    <p class="numero">#0006</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um Charizard voa em busca de oponentes fortes. Ele cospe chamas intensas que podem
+                        derreter qualquer material. No entanto, ele jamais incinerará um inimigo mais fraco.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3 ">
+                <div class="informacoes">
+                    <h2 class="titulo">Mewtwo</h2>
+                    <p class="numero">#0150</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um Pokémon criado por manipulação genética. No entanto, embora o poder científico
+                        dos humanos tenha criado seu corpo, eles falharam em lhe dar um coração afetuoso.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta de avançar">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
